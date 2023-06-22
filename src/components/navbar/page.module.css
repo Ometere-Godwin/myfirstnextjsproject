@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.logo {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.linked {
+  display: flex;
+  gap: 3;
+  align-items: center;
+}
+
+.button {
+  background-color: teal;
+  border-radius: 5px;
+  padding: 3px;
+}
