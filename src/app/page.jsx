@@ -17,7 +17,11 @@ export default function Home() {
         </button>
       </div>
       <div>
-        <Image src={digital1} className=" object-cover w-full h-[500px]" />
+        <Image
+          src={digital1}
+          className=" object-cover w-full h-[500px]"
+          alt={digital1}
+        />
       </div>
     </div>
   );
