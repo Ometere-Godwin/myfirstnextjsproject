@@ -14,12 +14,10 @@ export default function Navbar() {
       </Link>
 
       <div>
-        <ul className="flex gap-5  text-[18px]">
+        <ul className="flex gap-5 text-[18px]">
           {links.map((link) => (
-            <li>
-              <Link key={link.id} href={link.url}>
-                {link.title}
-              </Link>
+            <li key={link.id}>
+              <Link href={link.url}>{link.title}</Link>
             </li>
           ))}
           <button
