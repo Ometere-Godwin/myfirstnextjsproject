@@ -2,7 +2,6 @@
 import Link from "next/link";
 import React from "react";
 import { links } from "../../utils/constants";
-//import styles from "./page.module.css";
 
 export default function Navbar() {
   return (

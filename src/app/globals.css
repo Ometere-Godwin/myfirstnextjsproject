@@ -49,3 +49,11 @@ a {
   cursor: pointer;
   opacity: 0.6;
 }
+
+.homeH1 {
+  font-size: 72px;
+  font-weight: 800;
+  background: linear-gradient(to bottom, #194c33, #bbb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
