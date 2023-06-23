@@ -13,20 +13,20 @@ export default function Footer() {
           width={35}
           height={35}
           className="socialMediaIcons"
-          alt="facebook"
+          alt=""
         />
         <Image
           src="/assets/instagram.png"
           width={35}
           height={35}
           className="socialMediaIcons"
-          alt="instagram"
+          alt=""
         />
         <Image
           src="/assets/linkedIn.png"
           width={35}
           height={35}
-          alt="linkedIn"
+          alt=""
           className="socialMediaIcons"
         />
       </div>

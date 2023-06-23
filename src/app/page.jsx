@@ -18,7 +18,7 @@ export default function Home() {
       </div>
       <div>
         <Image
-          src={digital1}
+          src=""
           className=" object-cover w-full h-[500px]"
           alt={digital1}
         />
