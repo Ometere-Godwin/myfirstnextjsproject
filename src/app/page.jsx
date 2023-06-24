@@ -1,5 +1,6 @@
 import Image from "next/image";
 import digital1 from "../../public/assets/digital1.png";
+import Button from "@/components/button/Button";
 
 export default function Home() {
   return (
@@ -12,9 +13,7 @@ export default function Home() {
           Turning your idea into Reality. We bring together the teams from the
           global tech industry.
         </h3>
-        <button className="bg-[#194c33] w-full p-3 rounded-lg text-xl font-bold">
-          Visit our site
-        </button>
+        <Button url="contact" text="Visit our site" />
       </div>
       <div>
         <Image
