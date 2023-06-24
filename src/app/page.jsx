@@ -13,7 +13,7 @@ export default function Home() {
           Turning your idea into Reality. We bring together the teams from the
           global tech industry.
         </h3>
-        <Button url="contact" text="Visit our site" />
+        <Button url="/portfolio" text="Visit our site" />
       </div>
       <div>
         <Image

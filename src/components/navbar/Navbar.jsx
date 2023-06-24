@@ -5,7 +5,7 @@ import { links } from "../../utils/constants";
 
 export default function Navbar() {
   return (
-    <nav className="w-full h-24 px-3 flex justify-between items-center border-b-[1px] border-b-gray-600 sticky top-0 z-50 bg-[#212428]">
+    <nav className="w-full h-[80px] px-3 flex justify-between items-center border-b-[1px] border-b-gray-600 sticky top-0 z-50">
       <Link
         href="/"
         className="font-extrabold  text-[30px] text-red-400 tracking-wider"
