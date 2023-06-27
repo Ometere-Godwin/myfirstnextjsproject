@@ -57,3 +57,16 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.animate {
+  animation: move 2s infinite ease alternate;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(-35px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}

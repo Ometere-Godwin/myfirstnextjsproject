@@ -10,7 +10,7 @@ export default function Navbar() {
         href="/"
         className="font-extrabold  text-[30px] text-red-400 tracking-wider"
       >
-        Ruowvefs
+        wvefs
       </Link>
 
       <div>
