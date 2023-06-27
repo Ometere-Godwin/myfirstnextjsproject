@@ -35,3 +35,23 @@ export const links = [
     url: "/dashboard",
   },
 ];
+
+export const portfolioLinks = [
+  {
+    id: 1,
+    title: "Illustrations",
+    url: "portfolio/illustration",
+  },
+
+  {
+    id: 2,
+    title: "Websites",
+    url: "portfolio/websites",
+  },
+
+  {
+    id: 3,
+    title: "Applications",
+    url: "portfolio/applications",
+  },
+];

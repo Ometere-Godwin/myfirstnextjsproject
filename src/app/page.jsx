@@ -18,7 +18,7 @@ export default function Home() {
       <div>
         <Image
           src={digital1}
-          className=" object-cover w-full h-[500px]"
+          className=" object-contain w-full h-[500px] homeAnimate"
           alt={digital1}
         />
       </div>

@@ -67,6 +67,18 @@ a {
     transform: translateY(-35px);
   }
   to {
-    transform: translateY(0px);
+    transform: translateY(0px) scale(1.03);
+  }
+}
+
+.homeAnimate {
+  animation: move 3s infinite ease alternate;
+}
+@keyframes move {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(10px);
   }
 }
