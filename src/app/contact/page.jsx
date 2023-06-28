@@ -38,8 +38,8 @@ export default function Contact() {
                 className="bg-transparent border-[#bbb] border-[3px] outline-none rounded-lg"
                 id="message"
                 cols="30"
-                rows="3"
-                placeholder="Message"
+                rows="8"
+                placeholder="Type your Message"
                 name="message"
               ></textarea>
             </div>
