@@ -4,7 +4,7 @@ import Button from "@/components/button/Button";
 
 export default function About() {
   return (
-    <div className="">
+    <div>
       <div className="relative">
         <Image
           src={marketing}
