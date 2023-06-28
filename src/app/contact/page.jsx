@@ -17,7 +17,7 @@ export default function Contact() {
         <div className="flex-1">
           <form className="flex flex-col gap-4">
             <div className="gap-2 flex flex-col">
-              <label htmlFor="fullname">Fullname</label>
+              <label>Fullname</label>
               <input
                 type="text"
                 className=" w-full p-5 outline-none rounded-lg bg-transparent text-[#bbb] border-[#bbb] border-[3px]"
@@ -27,7 +27,7 @@ export default function Contact() {
             </div>
 
             <div className="gap-2 flex flex-col">
-              <label htmlFor="email">Email</label>
+              <label>Email</label>
               <input
                 type="email"
                 className=" w-full p-5 outline-none rounded-lg bg-transparent text-[#bbb] border-[#bbb] border-[3px]"
@@ -37,7 +37,7 @@ export default function Contact() {
             </div>
 
             <div className="gap-2 flex flex-col">
-              <label htmlFor="message">Message</label>
+              <label>Message</label>
               <textarea
                 className="bg-transparent border-[#bbb] border-[3px] outline-none rounded-lg"
                 id="message"
