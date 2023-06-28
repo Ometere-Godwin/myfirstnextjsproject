@@ -1,7 +1,6 @@
 import Image from "next/image";
 import get from "../../../public/assets/get.png";
 import Button from "@/components/button/Button";
-//import Image from "next/image";
 
 export default function Contact() {
   return (
@@ -18,30 +17,34 @@ export default function Contact() {
         <div className="flex-1">
           <form className="flex flex-col gap-4">
             <div className="gap-2 flex flex-col">
-              <label>Fullname</label>
+              <label htmlFor="fullname">Fullname</label>
               <input
                 type="text"
                 className=" w-full p-5 outline-none rounded-lg bg-transparent text-[#bbb] border-[#bbb] border-[3px]"
                 placeholder="Fullname"
+                name="fullname"
               />
             </div>
 
             <div className="gap-2 flex flex-col">
-              <label>Email</label>
+              <label htmlFor="email">Email</label>
               <input
                 type="email"
                 className=" w-full p-5 outline-none rounded-lg bg-transparent text-[#bbb] border-[#bbb] border-[3px]"
                 placeholder="Email"
+                name="email"
               />
             </div>
 
             <div className="gap-2 flex flex-col">
-              <label>Message</label>
+              <label htmlFor="message">Message</label>
               <textarea
                 className="bg-transparent border-[#bbb] border-[3px] outline-none rounded-lg"
+                id="message"
                 cols="30"
                 rows="3"
                 placeholder="Message"
+                name="message"
               ></textarea>
             </div>
 
