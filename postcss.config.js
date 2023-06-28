@@ -3,8 +3,4 @@ module.exports = {
     tailwindcss: {},
     autoprefixer: {},
   },
-
-  rules: {
-    "react/no-unescaped-entities": "off",
-  },
 };

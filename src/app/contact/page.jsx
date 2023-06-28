@@ -7,11 +7,11 @@ export default function Contact() {
     <div className="flex flex-col items-center">
       <p className="text-[60px] mb-[20px] align-middle">Let's keep In Touch</p>
       <div className="flex items-center gap-[100px]">
-        <div className="flex-1 w-[500px] relative">
+        <div className="flex-1 relative">
           <Image
             src={get}
             alt="contactImage"
-            className="object-contain animate"
+            className="object-contain w-full h-[500px]  animate"
           />
         </div>
         <div className="flex-1">
