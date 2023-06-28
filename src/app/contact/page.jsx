@@ -8,11 +8,7 @@ export default function Contact() {
       <p className="text-[60px] mb-[20px] align-middle">Let's keep In Touch</p>
       <div className="flex items-center gap-[100px]">
         <div className="flex-1 w-[500px] relative">
-          <Image
-            src={get}
-            alt="contactImage"
-            className="object-contain animate"
-          />
+          <Image src={get} alt="contactImage" className="object-contain" />
         </div>
         <div className="flex-1">
           <form className="flex flex-col gap-4">
@@ -48,7 +44,7 @@ export default function Contact() {
               ></textarea>
             </div>
 
-            {/* <Button url="#" text="Send a Message" /> */}
+            <Button url="#" text="Send a Message" />
           </form>
         </div>
       </div>
