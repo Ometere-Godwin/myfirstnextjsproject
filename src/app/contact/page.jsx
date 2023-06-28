@@ -48,7 +48,7 @@ export default function Contact() {
               ></textarea>
             </div>
 
-            <Button url="#" text="Send a Message" />
+            {/* <Button url="#" text="Send a Message" /> */}
           </form>
         </div>
       </div>
