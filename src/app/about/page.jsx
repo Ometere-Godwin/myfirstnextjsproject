@@ -35,7 +35,7 @@ export default function About() {
         </div>
         <div className="flex gap-7 flex-col flex-1">
           <p className="text-2xl font-bold tracking-wider">What we do</p>
-          <p className="text-base text-justify">
+          <p className="text-base text-justify text-red-400">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
             aspernatur neque, maiores tempora natus necessitatibus eaque,
             laborum, ullam ipsam et repudiandae! Repellat expedita quos veniam

@@ -41,17 +41,20 @@ export const portfolioLinks = [
     id: 1,
     title: "Illustrations",
     url: "portfolio/illustration",
+    image: "/assets/laptops.png",
   },
 
   {
     id: 2,
     title: "Websites",
     url: "portfolio/websites",
+    image: "/assets/laptops.png",
   },
 
   {
     id: 3,
     title: "Applications",
     url: "portfolio/applications",
+    image: "/assets/laptops.png",
   },
 ];
