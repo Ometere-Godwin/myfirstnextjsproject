@@ -58,3 +58,12 @@ export const portfolioLinks = [
     image: "/assets/laptops.png",
   },
 ];
+
+export const blog = [
+  {
+    id: 1,
+    heading: "",
+    description: "",
+    image: "/assets/",
+  },
+];

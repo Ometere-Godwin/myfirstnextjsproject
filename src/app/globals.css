@@ -24,8 +24,6 @@
 
 html,
 body {
-  color: #bbb;
-  background-color: #111;
   overflow-x: hidden;
   max-width: 100vw;
 }
@@ -33,6 +31,16 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.light {
+  color: #111;
+  background-color: white;
+}
+
+.dark {
+  color: #bbb;
+  background-color: #111;
 }
 
 .container {

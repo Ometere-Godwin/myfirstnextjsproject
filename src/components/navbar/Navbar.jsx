@@ -2,6 +2,7 @@
 import Link from "next/link";
 import React from "react";
 import { links } from "../../utils/constants";
+import DarkModeToggle from "../darkModeToggle/DarkModeToggle";
 
 export default function Navbar() {
   return (
@@ -15,6 +16,7 @@ export default function Navbar() {
 
       <div>
         <ul className="flex gap-5 text-[18px]">
+          <DarkModeToggle />
           {links.map((link) => (
             <li key={link.id}>
               <Link href={link.url}>{link.title}</Link>
