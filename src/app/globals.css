@@ -43,6 +43,10 @@ a {
   background-color: #111;
 }
 
+.theme {
+  transition: 2s all ease;
+}
+
 .container {
   max-width: 1366px;
   min-height: 100vh;

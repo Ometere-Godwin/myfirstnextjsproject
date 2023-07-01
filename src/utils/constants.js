@@ -59,11 +59,22 @@ export const portfolioLinks = [
   },
 ];
 
-export const blog = [
+export const blogs = [
   {
     id: 1,
-    heading: "",
-    description: "",
-    image: "/assets/",
+    heading: "Testing",
+    url: "/blog/testId1",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nemo quasi cupiditate iusto mollitia sint eius quis velit voluptates ut, nam sed dolorem. Ex accusantium est sit quae aut repellat?",
+    image: "/assets/laptops.png",
+  },
+
+  {
+    id: 2,
+    heading: "Testing",
+    url: "/blog/testId",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nemo quasi cupiditate iusto mollitia sint eius quis velit voluptates ut, nam sed dolorem. Ex accusantium est sit quae aut repellat?",
+    image: "/assets/laptops.png",
   },
 ];
