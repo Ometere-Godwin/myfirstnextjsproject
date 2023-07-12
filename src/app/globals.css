@@ -40,7 +40,7 @@ a {
 
 .dark {
   color: #bbb;
-  background-color: #111;
+  background: black;
 }
 
 .theme {
@@ -102,6 +102,7 @@ a {
   height: 400px;
   position: relative;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .item:nth-child(1) {
@@ -109,7 +110,7 @@ a {
 }
 
 .item:nth-child(2) {
-  background: url("/assets/laptops.png");
+  background: url("/assets/handcrafting.jpg");
 }
 
 .item:nth-child(3) {

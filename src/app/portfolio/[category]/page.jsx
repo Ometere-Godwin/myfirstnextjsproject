@@ -6,7 +6,6 @@ export default function Category({ params }) {
   console.log(params);
   return (
     <div>
-      <h1 className="font-extrabold text-[72px]">Our Works</h1>
       <h1 className="text-[#53c28b] text-[20px]">{params.category}</h1>
       <div className="flex gap-[100px] mt-[50px] mb-[100px]">
         <div className="flex-1 flex flex-col gap-5 justify-center">

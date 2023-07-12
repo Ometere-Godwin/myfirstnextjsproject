@@ -77,4 +77,13 @@ export const blogs = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nemo quasi cupiditate iusto mollitia sint eius quis velit voluptates ut, nam sed dolorem. Ex accusantium est sit quae aut repellat?",
     image: "/assets/laptops.png",
   },
+
+  {
+    id: 3,
+    heading: "Testing",
+    url: "/blog/testId",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nemo quasi cupiditate iusto mollitia sint eius quis velit voluptates ut, nam sed dolorem. Ex accusantium est sit quae aut repellat?",
+    image: "/assets/laptops.png",
+  },
 ];

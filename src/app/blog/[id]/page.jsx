@@ -1,15 +1,27 @@
 import Image from "next/image";
 import laptops from "../../../../public/assets/laptops.png";
+import {notFound} from "next/navigation";
 
-export default function BlogPost() {
+async function getData(id) {
+  const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`, { cache: 'no-store' })
+  
+  if (!res.ok) {
+    // This will activate the closest `error.js` Error Boundary
+    return notFound();
+  }
+ 
+  return res.json()
+}
+
+export default async function BlogPost({params}) { 
+  const data = await getData(params.id)
   return (
     <div className="flex flex-col gap-10">
       <div className="flex gap-[50px]">
         <div className="flex-1 flex flex-col gap-6">
           <h1 className="text-2xl font-extrabold">
             {" "}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-            incidunt deserunt amet illum.
+            {data.title}
           </h1>
           <p className="text-lg text-justify">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum

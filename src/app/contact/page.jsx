@@ -5,7 +5,7 @@ import Button from "@/components/button/Button";
 export default function Contact() {
   return (
     <div className="flex flex-col items-center">
-      <p className="text-[60px] mb-[20px] align-middle">Let's keep In Touch</p>
+      <p className="text-[50px] mt-4 align-middle">Let's keep In Touch</p>
       <div className="flex items-center gap-[100px]">
         <div className="flex-1 relative">
           <Image
@@ -20,7 +20,7 @@ export default function Contact() {
               <label>Fullname</label>
               <input
                 type="text"
-                className=" w-full p-5 outline-none rounded-lg bg-transparent text-[#bbb] border-[#bbb] border-[3px]"
+                className=" w-full p-3 outline-none rounded-lg bg-transparent text-[#bbb] border-[#bbb] border-[3px]"
                 placeholder="Fullname"
                 name="fullname"
               />
@@ -30,7 +30,7 @@ export default function Contact() {
               <label>Email</label>
               <input
                 type="email"
-                className=" w-full p-5 outline-none rounded-lg bg-transparent text-[#bbb] border-[#bbb] border-[3px]"
+                className=" w-full p-3 outline-none rounded-lg bg-transparent text-[#bbb] border-[#bbb] border-[3px]"
                 placeholder="Email"
                 name="email"
               />
@@ -42,7 +42,7 @@ export default function Contact() {
                 className="bg-transparent border-[#bbb] border-[3px] outline-none rounded-lg"
                 id="message"
                 cols="30"
-                rows="8"
+                rows="3"
                 placeholder="Type your Message"
                 name="message"
               ></textarea>
