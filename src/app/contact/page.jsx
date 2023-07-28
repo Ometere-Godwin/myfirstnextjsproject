@@ -2,6 +2,11 @@ import Image from "next/image";
 import get from "../../../public/assets/get.png";
 import Button from "@/components/button/Button";
 
+export const metadata = {
+  title: " Wvefs Contact",
+  description: "This is Contact Page",
+};
+
 export default function Contact() {
   return (
     <div className="flex flex-col items-center">
